@@ -1,0 +1,24 @@
+{
+  "name": "hello-iris",
+  "version": "1.0.0",
+  "description": "Hello Iris",
+  "main": "app.js",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.8.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start:dev": "nodemon ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
